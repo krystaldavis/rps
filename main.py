@@ -30,12 +30,9 @@ playerMoveIndex = validMoves.index(playerMove)
 
 print("Enemy picked: ", enemyMove)
 
-result = matrix[playerMoveIndex][enemyMoveIndex]
+result = get_result(playerMoveIndex, enemyMoveIndex)
 
 print("you", result)
-
-
-
 
 
 
